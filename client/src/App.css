@@ -1,0 +1,42 @@
+.LoginWindow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.LoginTextField{
+    width: 300px;
+  }
+
+.LoginButton{
+    width: 150px;
+    
+}
+
+.button-wrapper{
+    display: flex;	
+    justify-content: center;	
+  }
+
+.add-user-wrapper{
+  margin: 30px 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.margin-wrapper{
+  margin: 30px 30px;
+}
+
+.parag{
+  margin: 5px 10px 0px 10px;
+}
+
+.textField-wrapper{
+  width: 60px;
+}
+
+.reset {
+  float: right;
+}

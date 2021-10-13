@@ -1,0 +1,27 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "MERN stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Sergey Artamonov <smythe.spaer@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.2",
+    "config": "^3.3.6",
+    "excel4node": "^1.7.2",
+    "express": "^4.17.1",
+    "node-xlsx": "^0.17.2",
+    "nodemon": "^2.0.13",
+    "pidcrypt": "0.0.32"
+  }
+}
